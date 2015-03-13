@@ -1,0 +1,76 @@
+\documentclass[10pt]{extarticle}
+
+%Paquetes utilizados en esta tarea
+\usepackage{logo}
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[hidelinks]{hyperref}
+\usepackage{algorithmic}
+\usepackage[nothing]{algorithm}
+
+%Definiciones de comandos, para reutilizar secuencias frecuentes o ahorrar
+% c�digo
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\lb}{\\~\\}
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 &  \text{si }#2 \\
+			#3 &  \text{si }#4
+		\end{array}
+	\right.
+}
+
+\newcommand{\threepartdef}[6]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 &  \text{si }#2 \\
+			#3 &  \text{si }#4 \\
+			#5 &  \text{si }#6
+		\end{array}
+	\right.
+}
+
+\makeatletter
+
+\makeatother
+
+\begin{document}
+
+\begin{tabular}{ccl}
+\begin{tabular}{c}
+\psfig{file=puclogo.eps}
+\end{tabular}
+&\ \ \ & 
+\begin{tabular}{l}
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE\\
+ESCUELA DE [NOMBRE ESCUELA]\\
+DEPARTAMENTO DE [NOMBRE DEPARTAMENTO]
+\end{tabular}
+\end{tabular}
+
+\begin{center}
+\bf SIGLA - Nombre ramo\\
+\bf 1er semestre del 2015\lb
+
+\vspace{0.5cm}
+
+\bf {\Huge Título}
+\end{center}
+
+\section*{Sección}
+
+\subsection*{Sub-sección}
+
+Para compilar puedes usar ShareLatex: \url{https://www.sharelatex.com}. Copia y pega todo este código en el \textit{main.tex} y sube los archivos que contienen el logo de la universidad. De ahí en adelante puedes compilar para ver el resultado.
+
+\end{document}
