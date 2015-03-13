@@ -1,2 +1,7 @@
-# PUC-Latex-Template
-Pontificia Universidad Católica de Chile 
+# Preview
+
+![alt text](https://raw.githubusercontent.com/mrpatiwi/PUC-Latex-Template/master/preview.jpg "Preview")
+
+
+
+ 
