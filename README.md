@@ -1,5 +1,5 @@
 # Preview
 
-![alt text](https://raw.githubusercontent.com/mrpatiwi/PUC-Latex-Template/master/preview.jpg "Preview")
+![Document Preview](preview.png "Preview")
 
 > Disclamer: this work is not mine, I'm just sharing it for academic proposes.
